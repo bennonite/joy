@@ -1,1 +1,24 @@
 
+#joy-wedding-page.joy-wedding-home.joy-home .joy-primary-pane {
+width:50%;
+}
+
+#joy-wedding-page.joy-wedding-home.joy-home .joy-secondary-pane {
+width:50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#wedding-names {
+font-family: 'Amiri', serif;
+}
+
+.joy-menu-aloha.ng-scope {
+
+}
+
+#joyWeddingMenu {
+
+}
+
+
