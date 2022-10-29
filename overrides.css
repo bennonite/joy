@@ -1,24 +1,37 @@
 
-#joy-wedding-page.joy-wedding-home.joy-home .joy-primary-pane {
-width:50%;
-}
-
-#joy-wedding-page.joy-wedding-home.joy-home .joy-secondary-pane {
-width:50%;
-}
+/* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+/* Panels */
+
+@media(min-width:771px){
+  .joy-primary-pane {
+    width: 50% !important;  
+  }
+
+  .joy-secondary-pane {
+    width: 50% !important;  
+  }
+}
+
+/* Hero Section */
+
 #wedding-names {
-font-family: 'Amiri', serif;
+  display:none !important;
+  font-family: 'Amiri', serif;
 }
 
-.joy-menu-aloha.ng-scope {
-
+#wedding-message {
+  display:none !important;
 }
 
-#joyWeddingMenu {
-
+#welcome .welcomeDetails {
+  display:none !important;
 }
+
+
+
 
 
