@@ -66,6 +66,10 @@ html .joy-wedding-page h2 {
   text-transform:capitalize;
 }
 
+.joy-wedding-page .joy-wedding-info #welcome .welcomeDetails h2 {
+  max-width:70%;
+}
+
 .primary-photo-alpha-overlay {
   display:none;
 }
