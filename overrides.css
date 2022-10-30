@@ -10,6 +10,17 @@ html {
   font-weight: 400;
 }
 
+html .joy-wedding-page {
+    font-family: 'Amiri', serif;
+}
+
+html .joy-wedding-page h2 {
+  font-family: 'Amiri', serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color:#222222;
+}
+
 /* Panels */
 
 @media(min-width:771px){
@@ -52,10 +63,89 @@ html {
   font-size: 24px !important;
   line-height: 150% !important;
   padding: 5px 0;
+  text-transform:capitalize;
 }
 
+.primary-photo-alpha-overlay {
+  display:none;
+}
+
+.countdown-timer {
+  display:none;
+}
 
 /* Story Section */
 
+#weddingparty::before {
+  content:"OUR STORY";
+  position:relative;
+  margin:0 auto;
+  top:0;
+  letter-spacing: 8px;
+  font-size: 28px;
+  color:#222222;
+  margin-bottom: 20px;
+}
 
+#weddingparty h2 {
+    display:none;
+}
 
+.pary-member .party-title {
+  display:none;
+}
+
+.joy-home .joy-wedding-info .joy-content-card .party-member h4 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.guest-details-container {
+ 
+}
+
+/* Schedule Section */
+
+#schedule {
+  background-color: #F2F2F0;
+  min-height:110vh;
+}
+
+#schedule h2 {
+  text-align:left;
+  width: 100%;
+  padding-left:10px;
+}
+
+#schedule-timeline .time-container {
+  display:none !important;
+}
+
+#schedule-timeline .schedule-day-title {
+  display:none !important;
+}
+
+#schedule-timeline .dress-code {
+  display:none !important;
+}
+
+#schedule-timeline .calendar-button {
+  display:none !important;
+}
+
+#schedule #schedule-timeline .event .name {
+   letter-spacing: 2px;
+    font-size: 26px;
+    font-weight:700;
+    color:#222222;
+}
+
+#schedule #schedule-timeline .event .details p {
+    letter-spacing: 2px;
+    font-style:italic;
+    font-size: 24px;
+    font-weight:400;
+    color:#222222;
+    margin-top: 5px;
+}
