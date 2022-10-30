@@ -74,6 +74,14 @@ html .joy-wedding-page h2 {
   display:none;
 }
 
+#welcome .jyse-jyse-934c18d7-cf6c-4da1-8437-2a23172458fb > :first-child {
+  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-1.png');
+}
+
+#welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd > :first-child {
+  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-2.png');
+}
+
 /* Story Section */
 
 #weddingparty::before {
