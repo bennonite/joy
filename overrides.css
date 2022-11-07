@@ -78,12 +78,26 @@ html .joy-wedding-page h2 {
   display:none;
 }
 
+#welcome .jyse-jyse-934c18d7-cf6c-4da1-8437-2a23172458fb {
+  width:40%;
+}
+
 #welcome .jyse-jyse-934c18d7-cf6c-4da1-8437-2a23172458fb > :first-child {
-  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-1.png');
+  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-top.png');
+}
+
+#welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd {
+  width:40%;
 }
 
 #welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd > :first-child {
-  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-2.png');
+  background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-bottom.png');
+}
+
+.joy-home .joy-wedding-info #welcome .rsvp-button.btn.btn-animate {
+  background: #222222 !important;
+  color:#FFFFFF !important;
+  font-size:24px;
 }
 
 /* Story Section */
@@ -113,9 +127,24 @@ html .joy-wedding-page h2 {
   margin-top: 16px;
 }
 
-.guest-details-container {
- 
+.party-member .item.picture .item-content {
+  box-shadow: 1px 9px 27px -8px rgba(0,0,0,0.37);
 }
+
+.wedding-party-grid .item-content {
+  opacity:0.3;
+  transition:opacity .2s ease;
+}
+
+.wedding-party-grid .item-content:hover {
+  opacity:1;
+}
+
+.wedding-party-grid .item-content.active-item {
+  opacity:1;
+  border:2px solid #222;
+}
+
 
 /* Schedule Section */
 
