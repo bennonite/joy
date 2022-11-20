@@ -53,6 +53,7 @@ html .joy-wedding-page h2 {
   text-transform: uppercase;
   letter-spacing: 8px !important;
   font-size: 28px !important;
+  line-height: 120% !important;
 }
 
 #welcome .welcomeDetails h2 {
@@ -88,21 +89,47 @@ html .joy-wedding-page h2 {
 
 #welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd {
   width:40%;
+  bottom:50px; 
 }
 
 #welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd > :first-child {
   background-image: url('https://raw.githubusercontent.com/bennonite/joy/main/decoration-bottom.png');
 }
 
+@media(max-height:800px){
+  #welcome .jyse-jyse-934c18d7-cf6c-4da1-8437-2a23172458fb {
+    top:20px;
+    width:30%;
+  }
+  #welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd {
+    width:30%;
+    bottom:10px; 
+  }
+}
+
+@media(max-height:600px){
+  #welcome .jyse-jyse-934c18d7-cf6c-4da1-8437-2a23172458fb {
+    display:none;
+  }
+  #welcome .jyse-jyse-51c1137a-3ae0-40ae-acce-87a6c301f7cd {
+    display:none;
+  }
+}
+
 .joy-home .joy-wedding-info #welcome .rsvp-button.btn.btn-animate {
   background: #222222 !important;
   color:#FFFFFF !important;
   font-size:24px;
+  letter-spacing: 8px !important;
+}
+
+.joy-home .joy-wedding-info #welcome .view-details-label-link.rsvp-button {
+   font-size:20px;
 }
 
 /* Story Section */
 
-#weddingparty::before {
+/* #weddingparty::before {
   content:"OUR STORY";
   position:relative;
   margin:0 auto;
@@ -115,7 +142,7 @@ html .joy-wedding-page h2 {
 
 #weddingparty h2 {
     display:none;
-}
+} */
 
 .pary-member .party-title {
   display:none;
@@ -127,8 +154,39 @@ html .joy-wedding-page h2 {
   margin-top: 16px;
 }
 
+@media(max-width:1200px){
+ .wedding-party-viewer .main-side {
+    width:40% !important;
+  }
+  .wedding-party-viewer .aux-side {
+    width:60% !important;
+  }
+  .main-side .wedding-party-grid .item {
+/*     width:100% !important; */
+  }
+  .main-side .wedding-party-grid .item-container {
+    margin: 20px !important;
+  }
+}
+
+@media(max-width:900px){
+  .joy-home .joy-wedding-info .joy-content-card .party-member h4 {
+    font-size:14px;
+  }
+
+}
+
+@media(max-width:770px){
+  .joy-home .joy-wedding-info .joy-content-card .party-member h4 {
+    font-size:16px;
+  }
+   .wedding-party-viewer .aux-side {
+    width:100% !important;
+  }
+}
+
 .party-member .item.picture .item-content {
-  box-shadow: 1px 9px 27px -8px rgba(0,0,0,0.37);
+  box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.17);
 }
 
 .wedding-party-grid .item-content {
@@ -140,10 +198,42 @@ html .joy-wedding-page h2 {
   opacity:1;
 }
 
-.wedding-party-grid .item-content.active-item {
-  opacity:1;
-  border:2px solid #222;
+#joy-wedding-page .wedding-party-grid .item-content {
+    opacity: 0.5;
+    filter: brightness(1);
 }
+
+#joy-wedding-page .wedding-party-grid .item-content.active-item {
+  opacity:1;
+  border:2px solid #ccc;
+  border-color:#ddd !important;
+}
+
+#joy-wedding-page .wedding-party-viewer .guest-details {
+  margin: 0 5vw;
+}
+
+#joy-wedding-page .wedding-party-viewer .guest-details .info p {
+  font-size: 1.4rem;
+  line-height: 130%;
+  color:#333;
+}
+
+@media(max-width:550px){
+  #joy-wedding-page .wedding-party-viewer .guest-details .info p {
+    font-size: 1.2rem;
+  }
+}
+
+#joy-wedding-page .wedding-party-viewer .guest-details .info p br {
+  margin-bottom:1rem;
+}
+
+.vip-card .party-member span {
+  display:none;
+}
+
+
 
 
 /* Schedule Section */
@@ -190,3 +280,73 @@ html .joy-wedding-page h2 {
     color:#222222;
     margin-top: 5px;
 }
+
+@media(max-width:1024px){
+  #schedule #schedule-timeline .event .name {
+    font-size:18px;
+  }
+  #schedule #schedule-timeline .event .details p {
+      font-size: 16px;
+  }
+}
+
+
+/* Registry */
+
+#registrylinks .view-registry-button {
+  color: #333 !important;
+  transition:all .2s ease-in-out;
+}
+
+#registrylinks .view-registry-button:hover {
+  background-color: #333 !important;
+  color:#fff !important;
+}
+
+#registrylinks .registry-items {
+  width:100%;
+}
+
+#registrylinks .registry-items .registry-items-row {
+  width:100%;
+  padding:0 10px;
+}
+
+#registrylinks .registry-items .registry-items-row .registry-item-box {
+  height:auto;
+}
+
+/* Other */
+
+#faq .card-note {
+  display:none;
+}
+
+#faq a {
+  color:#333 !important;
+  font-weight:bold;
+}
+
+#app {
+  display:none;
+}
+
+#wedding-place {
+  max-width:515px;
+}
+
+.menu-owner .menu-event-name {
+  font-family: 'Amiri', serif;
+}
+
+.menu-item a[ur-sref="event.home.section({section: 'weddingparty'})"] {
+  height:0;
+  overflow:hidden;
+  margin-bottom:2rem; 
+  position:relative;
+  &::before {
+    content:"Our Story";
+  }
+}
+
+
