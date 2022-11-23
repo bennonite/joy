@@ -208,6 +208,12 @@ html .joy-wedding-page h2 {
   }
 }
 
+@media(max-width:550px){
+  .joy-home .joy-wedding-info .joy-content-card .party-member h4 {
+      font-size:22px;
+    }
+}
+
 .party-member .item.picture .item-content {
   box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.17);
 }
@@ -247,11 +253,16 @@ html .joy-wedding-page h2 {
   #joy-wedding-page .wedding-party-viewer .guest-details .info p {
     font-size: 1.2rem;
   }
+  .vip-card .party-member {
+    width: 100%;
+  }
 }
 
 #joy-wedding-page .wedding-party-viewer .guest-details .info p br {
   margin-bottom:1rem;
 }
+
+
 
 .vip-card .party-member span {
   display:none;
